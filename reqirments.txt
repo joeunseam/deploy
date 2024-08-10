@@ -1,3 +1,4 @@
+spacy
 altair==5.3.0
 annotated-types==0.7.0
 attrs==23.2.0
@@ -83,4 +84,3 @@ watchdog==4.0.1
 weasel==0.4.1
 wordcloud==1.9.3
 wrapt==1.16.0
-spacy==3.7.5
