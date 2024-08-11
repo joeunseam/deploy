@@ -73,7 +73,7 @@ def page2():
     )
     
     st.title("사탕에 대한 질문")
-    st.markdown(f'<img src="https://url.kr/3yk1lu" width="700" class="centered-image">', unsafe_allow_html=True)  # HTML로 이미지 삽입
+    st.markdown(f'<img src="https://url.kr/yrp8ow" width="700" class="centered-image">', unsafe_allow_html=True)  # HTML로 이미지 삽입
     st.write("사탕을 좋아하십니까?")
     if st.button("좋아한다"):
         st.session_state.responses['사탕'] = "좋아한다"
@@ -87,7 +87,7 @@ def page2():
 # 3번 페이지: 초콜릿을 좋아하나요?
 def page3():
     st.title("초콜릿에 대한 질문")
-    st.image('https://url.kr/qn4r68')  # 초콜릿 질문 페이지에 이미지 추가
+    st.image('https://url.kr/yrp8ow')  # 초콜릿 질문 페이지에 이미지 추가
     st.write("초콜릿을 좋아하십니까?")
     if st.button("좋아한다"):
         st.session_state.responses['초콜릿'] = "좋아한다"
